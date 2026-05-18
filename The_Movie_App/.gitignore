@@ -72,3 +72,12 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Env files — never commit API keys
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Claude local settings
+.claude/settings.local.json
